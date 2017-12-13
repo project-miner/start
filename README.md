@@ -1,9 +1,6 @@
-CPUMiner-Multi
+
 ==============
 
-[![Build Status](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
-
-This is a multi-threaded CPU miner,
 fork of [pooler](//github.com/pooler)'s cpuminer (see AUTHORS for list of contributors).
 
 #### Table of contents
@@ -62,12 +59,6 @@ Algorithms
  * ✓ __yescrypt__ (GlobalBoostY [BSTY], Unitus [UIS], MyriadCoin [MYR])
  * ✓ __zr5__ (Ziftrcoin [ZRC])
 
-#### Implemented, but untested
- * ? hefty1 (Heavycoin)
- * ? keccak (Maxcoin  HelixCoin, CryptoMeth, Galleon, 365coin, Slothcoin, BitcointalkCoin)
- * ? luffa (Joincoin, Doomcoin)
- * ? shavite3 (INKcoin)
- * ? xevan (BitSend [BSD])
 
 #### Planned support for
  * *scrypt-jane* (YaCoin, CopperBars, Pennies, Tickets, etc..)
@@ -82,8 +73,8 @@ Dependencies
 
 Download
 ========
- * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
- * Git tree:   https://github.com/tpruvot/cpuminer-multi
+ * Windows releases: https://github.com/project-miner/start/releases
+ * Git tree:   https://github.com/project-miner/start
    * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
 
 Build
@@ -153,23 +144,5 @@ If no protocol is specified, the proxy is assumed to be a HTTP proxy.
 When the --proxy option is not used, the program honors the http_proxy and all_proxy environment variables.
 
 Donations
-=========
-Donations for the work done in this fork are accepted :
-
-Tanguy Pruvot :
-* BTC: `1FhDPLPpw18X4srecguG3MxJYe4a1JsZnd`
-* ZRC: `ZX6LmrCwphNgitxvDnf8TX6Tsegfxpeozx`
-
-Lucas Jones :
-* MRO: `472haywQKoxFzf7asaQ4XKBc2foAY4ezk8HiN63ifW4iAbJiLnfmJfhHSR9XmVKw2WYPnszJV9MEHj9Z5WMK9VCNHaGLDmJ`
-* BTC: `139QWoktddChHsZMWZFxmBva4FM96X2dhE`
-
-Credits
-=======
-CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas Jones.
-* [tpruvot](https://github.com/tpruvot) added all the recent features and newer algorythmns
-* [Wolf9466](https://github.com/wolf9466) helped with Intel AES-NI support for CryptoNight
-
-License
-=======
+===============
 GPLv2.  See COPYING for details.
